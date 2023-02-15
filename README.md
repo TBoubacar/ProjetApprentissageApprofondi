@@ -14,6 +14,7 @@ Construction de réseaux génériques NN qui étend nn.Module avec mise en place
       #!/bin/bash
 
       echo "------------------ DEMARRAGE DU LOGICIEL JUPITER NOTEBOOK --------------------"
+      
       cd ./met-ici-le-chemin-vers-ton-repertoire-de-travail/MonRepertoireDeTravail | python3 -m jupyterlab &
   3. Enregistré le fichier, puis donné tous les droits au fichier avec les commandes suivantes :
     3.1. sudo chmod 777 -R ./jupiter.sh
